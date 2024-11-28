@@ -21,7 +21,7 @@ class RectangleTest(unittest.TestCase):
 
     def test_negative_perimeter(self):
         with self.assertRaises(ValueError):
-            perimeter(-2, 4)
+            perimeter(-3, 4)
 
 
 if __name__ == "__main__":
